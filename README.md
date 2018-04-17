@@ -10,6 +10,14 @@ Inspired by the Koken Google Analytics plugin: http://help.koken.me/customer/por
 And this Matomo blog post:
 https://matomo.org/blog/2017/02/how-to-track-single-page-websites-using-piwik-analytics/
 
+Installation
+---------
+
+Check Koken plugin installation instructions:
+http://help.koken.me/customer/portal/articles/874124-installation
+
+Then enable it from the admin, and set up the URL and Site ID.
+
 Changelog
 ---------
 
