@@ -1,0 +1,35 @@
+{
+	"name": "Matomo",
+	"version": "1.0.0",
+	"description": "Add Matomo tracking to any theme.",
+	"demo": "https://github.com/GregOriol/koken-matomo-plugin",
+	"author": {
+		"name": "GregOriol",
+		"link": "https://github.com/GregOriol/koken-matomo-plugin"
+	},
+
+	"koken_version_required": "0.2.0",
+
+	"data": {
+		"url": {
+			"label": "URL of Matomo",
+			"info": "The url of your Matomo installation. It is the value of the variable \"u\" in the Matomo tracking code. Example: //matomo.mysite.com/",
+			"type": "string",
+			"validation": {
+				"type": "regex",
+				"rule":	"^//.+$",
+				"error_message": "Not a valid url. It must start with //"
+			}
+		},
+		"site_id": {
+			"label": "Site ID",
+			"info": "The site id. It is the value of \"setSiteId\" in the Matomo tracking code. Example: 2",
+			"type": "string",
+			"validation": {
+				"type": "regex",
+				"rule":	"^[0-9]+$",
+				"error_message": "Not a valid tracking ID"
+			}
+		}
+	}
+}
